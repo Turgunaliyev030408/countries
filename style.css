@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+#countryInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.countryCard {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  overflow: hidden;
+  width: 300px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.countryCard img {
+  max-width: 100%;
+  height: auto;
+}
+
+.countryCard p {
+  padding: 10px;
+  text-align: center;
+}
